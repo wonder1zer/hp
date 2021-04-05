@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.character_box img {
+    height: 150px;
+    float: left;
+    border: 2px solid cadetblue;
+    margin: 15px;
+}
+
+.character_box {
+    display: inline-block;
+    margin: 35px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.37);
+    list-style: none;
+}
